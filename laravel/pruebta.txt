@@ -1,1 +1,5 @@
 pilin jose
+//comando de git
+git add .
+git commit -m "jiji"
+git push
