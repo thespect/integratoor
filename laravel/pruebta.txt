@@ -3,5 +3,3 @@ pilin jose
 git add .
 git commit -m "jiji"
 git push
- git es muy xd
- 
