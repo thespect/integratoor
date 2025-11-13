@@ -11,15 +11,18 @@ class RoleController extends Controller
     public function index(){
         $roles = $this->consultaRoles();
 
-        return view('Permisos.RolesView',compact('roles'));
+        return view('Permisos.Permisos',compact('roles'));
+    }
+
+    public function store(){
+        
     }
 
     protected function consultaRoles(){
         $roles = Role::where('status',1)
         ->get();
         
-        dd($roles);
-
+        //dd($roles);
         return $roles;
     }
 }

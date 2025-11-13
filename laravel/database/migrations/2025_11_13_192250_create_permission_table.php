@@ -13,6 +13,8 @@ return new class extends Migration
     {
         Schema::create('permission', function (Blueprint $table) {
             $table->id();
+            $table->string('ruta');
+            $table->string('sitio');
             $table->dateTime('fecha_creacion');
             $table->integer('status');
             $table->timestamps();

@@ -23,7 +23,7 @@ return new class extends Migration
 
         DB::table('roles')->insert([
             [
-                'nombre' => 'admin',
+                'nombre' => 'Administrador',
                 'status' => 1,
                 'fecha_creacion' => now(),
             ],
@@ -38,7 +38,7 @@ return new class extends Migration
                 'fecha_creacion' => now(),
             ],
             [
-                'nombre' => 'Maestr@',
+                'nombre' => 'Docente',
                 'status' => 1,
                 'fecha_creacion' => now(),
             ]

@@ -7,5 +7,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/DashboarRoles',[RoleController::class,'index'])
+// ******* Roles Routes *******
+Route::get('/DashboardRoles',[RoleController::class,'index'])
     ->name('dashboard.roles');
+
+Route::post('/DashboarRoles',[RoleController::class,'store'])
+    ->name('dashboard.roles.store');
