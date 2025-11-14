@@ -17,7 +17,7 @@ class RoleController extends Controller
     public function store(){
         
     }
-
+    #33
     protected function consultaRoles(){
         $roles = Role::where('status',1)
         ->get();

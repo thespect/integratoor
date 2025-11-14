@@ -22,7 +22,6 @@
                     <td>{{ $role->id }}</td>
                     <td>{{ $role->nombre }}</td>
                     <td>{{ $role->status }}</td>
-                    <td>{{ $role->fecha_creacion }}</td>
                 </tr>
                 @endforeach
             </tbody>
