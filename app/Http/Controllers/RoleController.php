@@ -8,11 +8,11 @@ use App\Models\Role;
 class RoleController extends Controller
 {
     //
-    public function index(){
-        $roles = $this->consultaRoles();
+public function index() {
+    $roles = $this->consultaRoles();
+    return view('index', compact('roles'));
+}
 
-        return view('Permisos.Permisos',compact('roles'));
-    }
 
     public function store(){
         

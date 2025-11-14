@@ -5,3 +5,11 @@ git commit -m "jiji"
 git push:q
 git log
 jaja
+paleta de colores /* Paleta de colores original que me diste */
+#BDDIBD    /* Verde muy claro/azulado */
+#85B093    /* Verde claro */
+#568F7C    /* Verde medio */
+#326D6C    /* Verde azulado oscuro */
+#173C4C    /* Azul verdoso muy oscuro */
+#07142B    /* Azul noche oscuro */
+#000009    /* Casi negro azulado */ 
